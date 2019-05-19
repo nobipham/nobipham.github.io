@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Trang đăng nhập</title>
+	<link rel="stylesheet" href="vendor/css/font-awesome.min.css">
+</head>
+<body style="font-family: arial;margin:0;">
+	<header style="background:linear-gradient(to right, #2196F3, #009688);color:white;padding:20px;position:relative;height:20vh;"><h1 style="text-align:center;margin-top:0;font-size:1.5em;position:absolute;left: 50%;top: 50%;transform: translate(-50%, -50%);">Hệ thống website tự động</h1></header>
+	<section class="frmLogin" style="width:30vw;margin:auto;">
+		<div class="div" style="text-align:center">
+			<h2>Đăng nhập hệ thống</h2>
+		</div>
+		<div class="frm" style="box-shadow:#2196F3 2px 2px 5px;border:1px solid #2196F3; border-radius:1%;">
+			<form action="" method="post">
+				<div class="row" style="display:flex;margin:10px 0px 10px 0px;">
+					<div class="col-left" style="width:10%"><span class="fa fa-user" style="padding:5px;"></span></div>
+					<div class="col-right" style="width:90%"><input type="text" pattern="" name="txtUS" style="width:90%;padding:5px;border-radius:5px;" placeholder="Tài khoản"></div>
+				</div>
+				<div class="row" style="display:flex;margin:10px 0px 10px 0px;">
+					<div class="col-left" style="width:10%"><span class="fa fa-key" style="padding:5px;"></span></div>
+					<div class="col-right" style="width:90%"><input type="text" pattern="" name="txtPW" style="width:90%;padding:5px;border-radius:5px;" placeholder="Mật khẩu"></div>
+				</div>
+			<div class="row" style="display:flex;position:relative;">
+				<div class="txt" style="text-align:right;width:50%;position:absolute;left: 50%;  top: 50%;transform: translate(-10%, -50%);"><input type="text" pattern="" name="txtCaptcha" style="width:90%;padding:5px;border-radius:5px;"></div>
+				<div class="captcha" style="width:49%"><img src="img/captcha.gif" style="width:100%;" alt=""></div>
+			</div>		
+			<div class="row" style="text-align:center;margin:10px 0px 10px 0px;">
+				<button type="submit" style="width:40%;padding:5px;border-radius:5px;font-size: 1em;">Đăng nhập</button>&nbsp;
+				<button type="button" style="width:40%;padding:5px;border-radius:5px;font-size: 1em;">Thoát</button>
+			</div>
+			<div class="row" style="text-align:center;margin:10px 0px 10px 0px;">
+				<input type="checkbox" value="1">Ghi nhớ
+			</div>
+			</form>
+		</div>
+	</section>
+</body>
+</html>
